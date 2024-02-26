@@ -19,7 +19,7 @@ def number_lines(input_file):
         for line in input_file.readlines():
             print(f"{line_number}\t{line}")
             line_number += 1
-        if line.endswith('\n'): #if the last string is empty
+        if 'line' in locals() and line.endswith('\n'): #if the last string is empty
             print(f"{line_number}\t{''}")
     else:
         for line in input_file:
