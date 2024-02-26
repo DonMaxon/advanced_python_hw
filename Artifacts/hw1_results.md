@@ -17,3 +17,5 @@
 ## wc command results
 
 ![alt text](hw1_results/6.png)
+
+В конце последней картинки проверка tail при вводе нескольких файлов
