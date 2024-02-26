@@ -2,4 +2,4 @@
 
 ## nl command results
 
-![alt text](https://github.com/DonMaxon/advanced_python_hw/blob/[branch]/1.png?raw=true)
+![alt text](hw1_results/1.png)
