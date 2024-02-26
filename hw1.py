@@ -41,7 +41,6 @@ def tail_for_file(file):
 @click.argument("input_files", type=click.File('r', encoding='utf-8'), nargs=-1)
 def tail(input_files):
     if len(input_files)>0:
-        print(len(input_files))
         for file in input_files:
             print(f"==> {file.name} <==")
             tail_for_file(file)
